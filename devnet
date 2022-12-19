@@ -14,7 +14,7 @@ if [ "$1" == "run" ]; then
        then
            echo Creating genesis block
            mkdir data
-           cp -r keystore/ data
+           cp -r keystore data/
            touch data/password
            $GETH init --datadir data genesis.json
     fi
