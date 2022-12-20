@@ -1,6 +1,7 @@
 Run builder as a local devnet
 
 1. Get https://github.com/flashbots/builder and run `make`
+Use this branch https://github.com/flashbots/builder/pull/30
 2. Set path to builder executable
 ```
 export GETH=$(realpath ./build/bin/geth)
